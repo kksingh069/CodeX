@@ -1,6 +1,3 @@
-// C++ program to show passing
-// of objects to a function
-
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -8,8 +5,6 @@ class Example {
 public:
 	int a;
 
-	// This function will take
-	// an object as an argument
 	void add(Example E)
 	{
 		a = a + E.a;
